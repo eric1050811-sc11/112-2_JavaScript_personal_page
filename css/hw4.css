@@ -1,0 +1,37 @@
+* {
+    font-size: xx-large;
+}
+
+table {
+    border-spacing: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-top-width: 0;
+}
+
+table caption {
+    text-align: center;
+    background-color: aqua;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+table tr.f_bar {
+    background-color: aquamarine;
+}
+
+table tr.e_bar {
+    background-color: lightblue;
+}
+
+table tr td {
+    text-align: center;
+    width: 2em;
+}
+
+p.readme {
+    margin: 4px;
+    font-size: large;
+}

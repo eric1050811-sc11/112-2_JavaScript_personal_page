@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+* {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", "微軟正黑體",
+        "Arial", "sans-serif";
+}
+
+html {
+    min-height: 100%;
+    overflow-y: scroll;
+}
+
+body {
+    background-image: linear-gradient(135deg, antiquewhite, grey);
+    color: black;
+    font-size: 18px;
+    min-height: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px grey;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+nav ul li, a {
+    flex: 1;
+    text-align: center;
+    display: inline;
+    border-style: outset;
+    border-color: black;
+    list-style-type: none;
+    position: relative;
+}
+
+nav ul li:hover .submenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-style: outset;
+    padding: 1px;
+    margin: 0px -2px;
+}
+
+.submenu :hover {
+    background-color: white;
+    color: black;
+}
+
+.submenu :active {
+    border-style: inset;
+    background-color: grey;
+    color: white;
+}
+
+aside ol {
+    font-weight: 400;
+}
+
+main section {
+    margin-left: 50px;
+}
+
+.copr {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.modify_date {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+}
+
+code {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-style: solid;
+    border-color: wheat;
+    border-width: 3px;
+    border-radius: 3px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+dd a {
+    text-decoration: none;
+    border-style: none;
+    color: blue;
+}
+
+footer dl {
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 1100px) {
+    aside {
+        float: none;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 1101px) {
+    aside {
+        float: right;
+        width: 300px;
+        margin-right: 50px;
+    }
+}
