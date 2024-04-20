@@ -1,0 +1,41 @@
+body {
+    background-color:rgb(189, 189, 189);
+    font-size: 3em;
+    text-align: center;
+    font-family: "Franklin Gothic", "Arial Narrow", Arial, sans-serif;
+}
+
+h3 {
+    margin: 0.5em;
+}
+
+div.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+div.lottery,
+div.lottery_sp {
+    border-radius: 1em;
+    width: 1em;
+    height: 1em;
+    background-color: yellow;
+    display: flex;
+    padding: 15px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.lottery_sp {
+    background-color: lightcoral;
+    margin-left: 50px;
+}
+
+button {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: small;
+}
